@@ -1,0 +1,15 @@
+echo "welcome to DedCod!"
+echo "please enter your name"
+read NAME
+echo "hello $NAME, how are you today?"
+read KHABAR
+
+if [ "$KHABAR" = "bad" ];
+then
+     echo "what happend?"
+     read HAP
+     echo "oh thats sad"
+
+else
+     echo "oh cool"
+fi
